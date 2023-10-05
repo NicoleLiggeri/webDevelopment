@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accordion Sidebar</title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    /* Sidebar styles */
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      background-color: #333;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar li {
+      padding: 10px;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Accordion styles */
+    .accordion-toggle {
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+    }
+
+    .accordion-content {
+      padding-left: 20px;
+      color: white;
+    }
+
+    .accordion-open .accordion-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar" id="mySidebar">
+    <ul>
+      <li>
+        <a class="accordion-toggle" href="#">Accordion 1</a>
+        <div class="accordion-content">
+          <p>Accordion 1 content goes here.</p>
+        </div>
+      </li>
+      <li>
+        <a class="accordion-toggle" href="#">Accordion 2</a>
+        <div class="accordion-content">
+          <p>Accordion 2 content goes here.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <!-- Content goes here -->
+  </div>
+</body>
+</html>
