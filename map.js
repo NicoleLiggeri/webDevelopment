@@ -16,7 +16,7 @@
                     dataType: 'html',
                     success: function (data) {
                         // Sostituisci il contenuto nell'elemento desiderato
-                        $('#contenutoDaAggiornare').html(data);
+                        $('#main-txt-id').html(data);
                     },
                     error: function (error) {
                         console.log('Errore nel caricamento del file: ' + error.statusText);
