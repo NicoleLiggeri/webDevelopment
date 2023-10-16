@@ -173,7 +173,7 @@ nav li {
 }
 .decoration-dx{
     box-shadow: inset 0 5px 5px #2a0502, inset -5px -5px 5px #2a0502;
-    background-image: url("imgs/dec-dx.png");
+    background-image: url("https://github.com/NicoleLiggeri/webDevelopment/blob/2edac8cd5f1b04f6295444cead0b34082fd51d11/imgs/dec-dx.png");
     border-left: 3px solid #dab35a;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
