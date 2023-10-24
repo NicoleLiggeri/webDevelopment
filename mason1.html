@@ -1,535 +1,621 @@
-<div id="introduction-txt-id">
-                <h1>Freemasons and the American Revolution</h1>
-            </div>
-            <h2 class="author">Neil L. York</h2>
-            <div class="text" lang="en">
-                <p>
-                    A half-century ago, some historians connected Freemasonry with <span class="event">American
-                    independence </span> because a few leaders of the Revolutionary generation—most notably <span
-                    class="person">Benjamin Franklin</span> and <span class="person">George Washington</span>—were
-                    Freemasons. <span class="person">Bernard Fay</span>, a French historian who exposed Masons to the
-                    Nazis in occupied <span class="place">France</span> during World War II, made emphatic claims for
-                    Freemasonry's importance to eighteenth-century revolutionary movements in France and the American
-                    colonies. Fay saw Freemasonry as the "main instigator of the intellectual revolution" of that age
-                    and "the spiritual father of its political revolutions." According to Fay, Freemasons engendered
-                    among "a limited but very prominent class of people a feeling of American unity without which
-                    American liberty could not have developed—without which there would have been no United States."1
-                    Fay relied heavily on one Masonic writer in the United States, <span class="person">Sidney
-                        Morse</span>, for his conclusions about Revolutionary America. Morse was convinced that "Masonry
-                    brought together in secret and trustful conference the patriot leaders" who led their country in a
-                    "fight for freedom." Morse saw Freemasons everywhere he looked: they sank the revenue schooner <span
-                        class="place">Gaspee</span> in <span class="date 1700">1772</span>; they orchestrated the <span
-                        class="event">Boston Tea Party</span> a year and a half later; and they dominated committees of
-                    correspondence, committees of safety, provincial conventions, and the Continental Congress. Based
-                    only on hearsay, Morse wrote that "<span class="person">Washington</span>, according to <span
-                        class="person">La Fayette</span>, it is said, never willingly gave independent command to
-                    officers who were not Freemasons." Morse followed in the footsteps of other patriotic Masons. For
-                    example, a zealous Masonic orator had eulogized Washington soon after his death:
-                </p>
-                <blockquote>A single institution [Masonry] brought men to the level of equality; he wished to understand its
-                    principles, he wished to become one. its members. His soul have the pride to believe, [Masonic]
-                    temple of and on the improvements its members. His soul expanded with the pure flame of charity;
-                    and, I have the pride to believe, that, the first step which he made in the [Masonic] temple of
-                    truth, had an influence on the fate of this empire, and on the improvements in the systems of other
-                    governments.2</blockquote>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ottocento.css" id="themeLink">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="map-nicole.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet" />
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZ2lvY3Jvc2kiLCJhIjoiY2xuNXQ1ZGV5MGQybjJqcDZ6YWFzMnByZCJ9.TWuwEi8RI7prLyZOAnx6ng';
+    </script>
+</head>
 
-                <p>
-                    For years Masonic writers repeated the sentiments expressed by Washington's enthusiastic Masonic
-                    contemporary, albeit without any proof to substantiate their claims. Masonic lodges left skimpy
-                    records, and Masons rarely mentioned such ties in their correspondence. More vexing still for the
-                    historian, they virtually never linked their Masonic association to their political views. Forced
-                    into performing logical and stylistic gymnastics as a result, one later Mason wrote, "What influence
-                    Freemasonry may have had on the life and character of <span class="person">BENJAMIN FRANKLIN</span>
-                    can only be conjecture, but that it did influence him and his contemporaries in the great struggle
-                    for American independence seems beyond doubt."3
-                </p>
-                <p>
-                    Masonic enthusiasts and Fay notwithstanding, most historians have had little interest in the
-                    subject. <span class="person">Crane Brinton</span> tipped his hat to Masonic involvement in the
-                    <span class="event"> French Revolution</span> but had nothing to say about Freemasons and the
-                    American Revolution. <span class="person">R. R. Palmer</span> concluded that even in <span
-                        class="place">France </span>, Masons were politically " innocuous if not ridiculous" and did not
-                        act as a group. <span class="person">Bernard Bailyn</span> passed over Freemasons in
-                    Revolutionary America altogether. Recently several historians have done detailed studies of
-                    eighteenth-century Masonry, but they have assiduously avoided making a causal link between Masonry
-                    and the American Revolution.
-                </p>
-                <img src="img1.png">
-                <p class="img_description">
-                    Biblical and Masonic ritual themes abound in this portrait of <span class="person">Washington</span>
-                    beneath the shining "G," emblematic of geometry and the presence of God. <span
-                        class="person">Washington</span> holds a trowel in one hand, laying the foundation for the
-                    capitol, and a gavel of authority in the other. His apron displays the all-seeing eye, the square,
-                    and compass. Below the marquis de Lafayette are Jacob's ladder, the Virgin Mary in mourning, and the
-                    figure of Time; below <span class="person">Andrew Jackson</span> are the Good Samaritan and the
-                    Masonic virtues. The representations at the bottom are the Masonic altar, the casket and spade
-                    (death), the evergreen (immortality), and an allusion to the placement of Masonic lodges and
-                    heavenly bodies.
-                </p>
-                <p>
-                    Masonic writers themselves have become more circumspect. One succinctly stated, "all patriots were
-                    not Freemasons and all Freemasons were not patriots." Another studied 241 "Founding Fathers" and
-                    determined that only 68 were Masons, not all of them active members. Still another had been
-                    reluctant to write a new biography of George Washington, since he knew that Washington was not very
-                    involved in the Brotherhood. Thus, in a sense, the Masonic view and the opinions of professional
-                    historians have been reconciled.5
-                </p>
-                <p>
-                    The first official history of the Brotherhood was The Constitutions of the Free-Masons written by
-                    <span class="person">James Anderson</span>. First published in <span class="date 1700">1723</span>
-                    and revised and enlarged in <span class="date 1700">1738</span>, Anderson's version reigned supreme
-                    until the 1880s, when <span class="person">Robert Freke Gould</span> took Anderson to task in his
-                    multivolume work. Others have since done the same or deferred to Gould. Contrary to <span
-                        class="person">Anderson</span>, who carried Freemasonry back to antiquity, even linking it with
-                    the biblical creation story, <span class="person">Gould</span> traced Freemasonry—as distinct from
-                    stonemasonry—to the Middle Ages. Later writers have argued that Freemasonry only developed in the
-                    seventeenth century, or even later, in Anderson's own lifetime. These newer Freemasons gradually
-                    eclipsed older masonic craft guilds, which were absorbed into the new lodges or withered away and
-                    disappeared. For Gould and those like him, that was the real history; what Anderson wrote was either
-                    his own invention or based on legends, not empirical evidence.6
-                </p>
-                <p>
-                    Even so, in the eighteenth century Anderson was widely respected. As an authoritative statement
-                    about Masonic ideas, his Constitutions served as a handbook for Masonic lodges and members. If eighteenth-century Masons doubted the truth of
-                    Anderson's genealogy, they still could have accepted Masonry as embodying universal truths that were
-                    both logical and scientific. Anderson remains the best source for Masonic doctrine in Revolutionary
-                    America.
-                    <span class="person">Anderson</span> characterized himself as the editor and collator of the
-                    Constitutions, drawing his information from "ancient Records" and the "faithful traditions of many
-                    Ages." He started the Masonic story with the 'Tear of the World," 4003 B.c., when God, Supreme
-                    Architect of the Universe, created Adam in his own image. With Adam's expulsion from the Garden of
-                    Eden the basic skills of Masonry—geometry and the "mechanical arts"—helped reduce humankind's
-                    burdens. Adam passed along the craft to his progeny and "since the Fall, we find the Principles of
-                    it in the Hearts of his Offspring." Old Testament prophets handed down Masonry from one generation
-                    to the next. Through Abraham "God did wisely over-rule" his chosen people "in order to make them
-                    good Masons before they possess'd the promis'd land." Under Moses, their "Grand Master," the
-                    children of Israel rose as "a whole Kingdom of Masons" after fleeing Egypt. The architectural
-                    culmination of their achievement came with Solomon's great temple in <span
-                        class="place">Jerusalem</span>, which stood for over four hundred years. Some 183,600 masons
-                    labored under Hiram Abif, "the most accomplish'd Mason upon earth."7
-                    According to Anderson the Israelites were ultimately defeated and scattered and Solomon's temple was
-                    destroyed, but Masonry survived because it was "under the immediate Care and Direction of Heaven."
-                    Masonry spread throughout the Mediterranean basin and into the hinterlands of <span
-                        class="place">northern Europe</span> and <span class="place">India</span> as "this liberal Art"
-                    was taught to "free born Sons of eminent Persons." In the British Isles the Angles and Saxons became
-                    Christians and "free people" and began to restore the lost skills of Masonry. Prince Edwin, youngest
-                    son of King Athelstan, formed the first grand lodge at <span class="place">York</span> in the <span
-                        class="date thousand">tenth century</span>. English Masonry was strengthened with the arrival of
-                    the Normans, who had preserved Masonic traditions in their culture. Britain thereafter rose to
-                    greatness, marked by magnificent edifices that were Mason designed and built, including Westminster
-                    Abbey and Saint Paul's Cathedral in <span class="place">London</span>.8
-                    Anderson was a transplanted Scot who lived in London and rubbed shoulders with leading Freemasons of
-                    his generation, including <span class="person">Frederick, Prince of Wales</span>. Anderson wrote
-                    that Freemasonry had been embraced by the great men of history and was at heart moral and ethical.
-                    Witness,
-                </p>     
-                <p>
-                    <span class="person">Anderson</span> advised, the Tower of Babel and Nebuchadnezzar's foolish
-                    efforts to surpass the glory of Solomon's temple. As Anderson explained it, Freemasonry blended
-                    mystical and rational, sacred history with the rise of Western civilization, and a message of
-                    universal brotherhood with the growing grandeur of Britain.9
-                    Writers in the next generation of British Masons added to Anderson. Distinguishing between simple
-                    masonry and the ideals of Freemasonry, one Mason wrote:
-                </p>
-                <blockquote><p>Masonry passes and is understood under two denominations: it is operative and speculative. By the
-                    former, we allude to the useful rules of architecture, whence a structure derives figure, strength,
-                    and beauty, and whence results a due proportion and just correspondence in all its parts. By the
-                    latter, we learn to subdue the passions, act upon the square, keep a tongue of good report, maintain
-                    secrecy, and practice charity.</p>
-                </blockquote>
-                <p>
-                    Another eighteenth-century Masonic author explained that Masonry "never suffered the liberal arts
-                    and sciences to be taught to any but the free-born." If later Masonic writers differed with Anderson
-                    over some
-                    details, they still maintained his tone and linked Masonry with progress. One Mason rhapsodized, "In
-                    the dark periods of antiquity, when literature was in a low state, and the rude manners of our
-                    forefathers withheld from them the knowledge we now so amply share, Masonry began to diffuse
-                    her influence." The result was beneficial to all: "The mysteries of this science unveiled, arts
-                    instantly arose, civilization took place, and the progress of knowledge and philosophy gradually
-                    dispelled the gloom of ignorance and barbarism." 10
-                    In colonial America, prospective Masons had to be nominated for membership, approved unanimously,
-                    and, before being exposed to the rituals and secrets of the art, had to agree to abide by the
-                    "Charges" set forth in Anderson's Constitutions. No Mason could be "a stupid Atheist,
-                    nor an irreligious Libertine." All members had to be "good and true Men, free-born, and of mature
-                    and discreet Age, no Bondmen, no Women, no immoral or scandalous Men, but of good report." Masons
-                    were equal as brothers within the lodge, although "Masonry takes no Honour from a
-                    Man that he had before." Those of a higher social station often held the most prestigious Masonic offices, but Masons were to promote charity for all. At the same time they
-                    were "to prefer a poor Brother, that is a good Man and true, before any other poor People in the
-                    same Circumstances." They were not to discuss religion and politics in the lodge, and they were
-                    expected to resolve disputes amicably, bringing suit in court only as a last
-                    resort.11
-                </p>
-                <p>
-                    Freemasonry was unable to stand above the din of the eighteenth century. Disharmony appeared within
-                    Britain's Masonic ranks and led to the founding of a new set of lodges affiliated under a rival
-                    grand lodge by <span class="date 1700">1751</span>. Those with deistic leanings preferred the 1723
-                    edition of Anderson's Constitutions (Moderns), while those who were more orthodox Christians looked
-                    to the 1738 edition (Ancients).Ancients were obliged to obey Christian precepts regardless of where
-                    they lived; Moderns abided by the prevailing religious belief of their homeland. Apparently some who
-                    became Ancients resented the power of London's grand lodge and looked to the older grand lodge in
-                    York or others that had sprung up by the middle of the eighteenth century. They may have also
-                    resented the domination of London and wanted to appeal more to the middle classes when recruiting
-                    new members.12
-                </p>
-                <p>
-                    Whatever the cause of their differences, the rift between Ancients and Moderns in Britain was not
-                    mended until <span class="date eight">1813</span>. In retrospect the differences separating them
-                    appear to have been minor. Disagreements were between individuals, not disputes over key principles.
-                    Ancients and Moderns disagreed about the role of Masonry during antiquity—such as the relative
-                    importance of Solomon's temple—but both sides claimed to go back to the beginning of time and
-                    defined their raison d'etre as a quest to establish moral and ethical principles essential to human
-                    happiness and social progress. Ancients were expected to abide by the same general code of conduct in promoting
-                    virtue and combating vice as were Moderns. Every Mason, Ancient or Modern, was bound to practice
-                    charity and to avoid any reference to politics or religion within the lodge. Their rituals may have
-                    varied, but Ancients and Moderns passed members through the same three degrees of apprentice, fellow
-                    craft, and master mason. They used the same organization of lodges linked together under a grand
-                    lodge with masters, wardens, and other officers to preside over their affairs. They observed the
-                    same ceremonial days, such as 24 June to celebrate John the Baptist as patron saint of masons, and 27 December to commemorate St. John the Evangelist.13
-                    By the <span class="person">1730s</span>, Masonic lodges affiliated with the grand lodge of London
-                    had sprung up in <span class="place">North America</span>. Lodges formed there received approval
-                    from London after they had been organized, so they were more or less autonomous. Eventually the
-                    Modern and Ancient dispute in Britain reached the colonies. For example, some Pennsylvania Moderns
-                    turned to Ancient lodges, and Pennsylvania's Modern lodges had all but disappeared by the
-                    Revolutionary War. The Ancient versus Modern struggle in <span class="place">Pennsylvania</span>,
-                    like that across the Atlantic, may have reflected class divisions, with ambitious mechanics and
-                    farmers pitted against merchants and wealthier land
-                    owners. However, this can be exaggerated since the divisions that split them did not carry over into
-                    the Revolutionary crisis. Members of Ancient and Modern lodges in Pennsylvania were in both patriot
-                    and Loyalist ranks.14
-                </p>
-                <p>
-                    The situation was different in <span class="place">Massachusetts</span>, where Ancients were much
-                    more likely than Moderns to be patriots. Boston provides the best example for claiming Freemasonry's
-                    connection to the drive for independence. The Brotherhood made its formal Massachusetts debut on
-                    <span class="date 1700">30 July 1733</span>, when a handful of Masons met at the Bunch of Grapes
-                    tavern in <span class="place">Boston</span>. The acting grand master for New England, under a
-                    warrant from the grand master of England, formed the grand lodge of St. John's. At least three
-                    regular lodges took shape in Boston and over twenty were organized elsewhere in New England, all
-                    nominally presided over by Boston's grand lodge of St. John.
-                    <span class="person">Jeremiah Gridley</span> held the office of grand master when, in <span
-                        class="date 1700">1761</span>, the Modern-Ancient rivalry spilled into Boston. That year a new
-                    grand lodge of St. Andrew was formed in Boston under a commission from the grand master of Scottish
-                    lodges with an Ancient tie. As far as members of St. Andrew's lodge were concerned this action was
-                    no infringement on Gridley’s authority because his warrant came from London, not Edinburgh, and from
-                    a grand master of Moderns, not Ancients.
-                </p>
-                <p>
-                    The Bostonians who founded St. Andrew's had been denied admission to St. John's or the lodges
-                    affiliated with it. Nonetheless they extended their hands in a conciliatory gesture and wrote, "the
-                    Lodge of St. Andrew being assembled for the purposes of promoting Brotherly Love and Unity have unanimously voted [for] a happy Coalition." St. John's responded that the Scottish grand master
-                    had interfered where he did not belong. Some who had organized the new lodge were not accredited
-                    Masons, and St. John's considered the new lodge "irregular." St. Andrew's retorted that St. John's
-                    attitude was "subversive of the Principles of Masonry."15
-                </p>
+<body id="body-txt-id">
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="decoration-sx">
+            <p class="p-dec">Decorazione</p>
+        </div> <!--prova  ainserire con js-->
+        <div class="title">
+            <div class="circle"></div>
+            <a class="navbar-brand" href="mainpage.html">
+                <h1 class="stroke-double" title="secretmag">secretmag </h1>
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Documentation</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Themes
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Aldine</a></li>
+                        <li onclick="styleS('ottocento.css')"><a class="dropdown-item" href="#">1860</a></li>
+                        <li><a class="dropdown-item" href="#">De Stijl</a></li>
+                        <li onclick="styleS('anniSettanta.css')"><a class="dropdown-item" href="#">70s</a></li>
+                        <li><a class="dropdown-item" href="#">90s</a></li>
+                        <li><a class="dropdown-item" href="#">Dystopian future</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="decoration-dx">
+            <p class="p-dec">Decorazione</p>
+        </div>
+    </nav>
+    <div class="sidecont-txt metarticle-inv-txt" id="metadata-txt-id">
+        <button class="accordion" id="data">Data</button>
+        <div class="panel">
+                <p>Author:</p>
+                <p>Title: The Terror is Born</p>
+                <p>Journal:</p>
+                <p>Year:</p>
+                <p>DOI:</p>
+                <p>Online access to the resource:</p>
+        </div>
+        <button class="accordion menu__link" id="dates">Dates
+        </button>
+        <div class="panel">
+            <form role="form">
+                <div class="checkbox"><label>
+                        <input type="checkbox" id="showasides" class="show">1700</label></div>
+                <div class="checkbox"><label>
+                        <input type="checkbox" id="showspeeches" class="show">1800</label>
+                </div>
+                <div class="checkbox"><label>
+                        <input type="checkbox" id="showquotes" class="show">1900</label></div>
+            </form>
+        </div>
+        <button class="accordion menu__link" id="places">Places
 
-                <p>
-                    The grand lodges in <span class="place">Britain</span> did not get involved in the dispute in
-                    Massachusetts since they were trying to work out their own problems and did not want to stir the
-                    waters. Nor did Massachusetts Ancients and Moderns press matters. Although the rival lodges did not
-                    merge until <span class="date 1700">1792</span>— twenty-one years before British Ancients and
-                    Moderns would do the same—they settled into a relatively peaceful coexistence. Lodge members from
-                    both sides even bought copies of Wellins Calcotf s Candid Disquisition, an updated version of
-                    Anderson's handbook.16
-                </p>
-                <p>
-                    The Revolutionary crisis did not noticeably widen divisions in <span class="place">Massachusett</span>, although there were more Loyalist members of St. John's and
-                    more patriot members of St. Andrew's. Leading Boston radicals— <span class="person">Paul
-                        Revere</span>, <span class="person">John Hancock</span>, and <span class="person">William
-                        Molineux</span>—attended St. Andrew's lodge where <span class="person">Dr. Joseph Warren</span>
-                    had been made lodge master in <span class="date 1700">1768</span>. The next year Warren was named
-                    grand master of a new grand lodge for the Ancients; in the reorganization St. Andrew's became one of
-                    the lodges under its jurisdiction. <span class="person">James Oti</span> was one of the few men from
-                    St. John's to have spoken or written against imperial policy and by the <span class="person">late
-                        1760s</span> he did so less often—and more and more erratically.17
-                </p>
-                    St. Andrew's lodge owned the Green Dragon tavern. "More Revolutionary eggs were hatched in this
-                    dragon's nest," quipped Esther Forbes, "than in any other spot in Boston." The North End Caucus, led
-                    by Warren, met there, as did the members of St. Andrew's. Some assert that the <span
-                        class="event">Boston Tea Party</span> was planned at the Green Dragon and that the men behind it
-                    were <span class="person">Freemasons</span>. 'This Boston body, like most ancient lodges, was
-                    dominated by men active in the revolutionary movement and had a more democratic membership than the
-                    older lodge of Boston," proclaimed <span class="person">John Cary</span>, Warren's biographer.
-                <p>
-                    The official meeting weis often preceded or followed by supper and refreshments. Gathering about the
-                    fireplace in the long room, they lighted pipes and cemented the bonds of brotherhood with hot punch,
-                    port, and madeira— It was here, more than in the meetings, that talk turned to politics, and to the
-                    members of St. Andrew's such talk was congenial indeed.
-                </p>
-                <p>
-                    In tracing Revere's role in the Tea Party, <span class="person">Forbes</span> made a similar
-                    connection. She noted that Revere was active in the North End Caucus and St. Andrew's lodge and that
-                    both groups were known to have had a hand dumping tea into Boston harbor.18
-                </p>
-                <p>
-                    Although Cary's and Forbes' sources were vague, they drew firm conclusions. Cary was convinced that
-                    the "Liberty Party" in and around Boston that led the protest against imperial policy was linked to
-                    St. Andrew's lodge: "The building of political sentiment among members of this powerful society was
-                    the work of years and was closely associated with masonic social activities." According to Cary, St.
-                    Andrew's deserved to be included on the same patriotic list as the North End Caucus, the Monday
-                    Night Club, and the Sons of Liberty. Nevertheless, Cary also confessed that the "membership and
-                    exact role of each of these groups is still obscure." Furthermore, Warren's personal life, including
-                    his involvement in those groups and in political agitation before 1775, was difficult to reconstruct
-                    because so little survived.19
-                </p>
-                <p>
-                    Forbes' picture of Revere is also problematic. Forbes quoted from lodge minutes on the night of the
-                    first tea ship's arrival, which stated only that those assembled "adjourned on account of few
-                    Brothers present. Ν. B. Consignees of Tea took the Brethren's time." Records for the night of the
-                    Tea Party itself are as terse: "Lodge closed on account of few members present." Forbes assumed the
-                    importance of Freemasonry to Revere's politics and referred readers to an earlier biography that
-                    emphasized Revere's joining and rise to grand master in <span class="date 1700">1794</span>, but
-                    that study offered no insight as to why Revere became a Mason or what Masonic affiliation meant to
-                    him.20
-                </p>
-                <p>
-                    Perhaps Cary and Forbes fell into the same inferential trap as Masonic enthusiasts like Sidney
-                    Morse. They read too much into a spotty, fragmentary record. By contrast, historian <span
-                        class="person">Benjamin Labaree</span> was much more guarded in his later study of the Tea Party. He observed that many members of the Boston Committee
-                    of Correspondence "also belonged to other groups—the North End Caucus, the Long Room Club, and the
-                    Grand Lodge of Masons—which may have had a role in the planning as well." Reluctant to establish a
-                    strong connection, Labaree qualified his conclusion.21
-                    The evidence for Masonic involvement in the <span class="event">Boston Tea Party</span> and other
-                    Revolutionary events is at best inconclusive. Although Morse believed that members of the Providence
-                    Masonic lodge sank the Gaspee in June <span class="date 1700">1772</span>, he had no proof to
-                    substantiate his assertion. Moreover, a once commonly held assumption that the Great Seal of the
-                    United States reflects Masonic influence, particularly with its all-seeing eye suspended above an
-                    incomplete pyramid, has now been challenged. According to the most exhaustive, painstaking account,
-                    "it seems likely that the designers of the Great Seal and the Masons took their symbols from
-                    parallel sources, and unlikely that seal designers consciously copied Masonic symbols with the
-                    intention of incorporating Masonic symbolism into the national coat of arms."22
-                </p>
-                <p>
-                    Neither did Freemasonry act as a unique unifying force. Massachusetts Ancients and Moderns finally
-                    joined hands at the end of the Revolutionary era but a move during the Revolutionary War to combine
-                    all Masons under George Washington as national grand master failed, never to be revived. To this day
-                    Masonic lodges in the <span class="place">United States</span>, with their three million or so
-                    members—more than anywhere else in the world—are organized under state grand lodges, not a
-                    centralized, national organization.23
-                    It is doubtful whether Freemasons qua Freemasons played a significant role in the American
-                    Revolution, even as their members joined the Revolutionary movement or stayed loyal to Britain.
-                    Masonry as an institution did not figure in the eventual revolt; even so, the ideas and values of
-                    Masons may have played a role, along with other beliefs that historians have traditionally linked to
-                    the Revolutionary cause.
-                    Instead of searching for something unique in Freemasonry or focusing on the peculiarities of Masonic
-                    doctrine, it might prove more useful to see how certain aspects of Masonry reinforced attitudes that
-                    were not peculiar to the Brotherhood. Masonry might have been distinctive, a society unto itself, but it was also part of Anglo-American culture. Perhaps Masonry contributed to the American
-                    revolutionary impulse more indirectly. Masonry as an indirect influence offers a middle ground
-                    between the extremes of claiming too much and ignoring the subject altogether. 24
-                    </p>
-                    <p>
-                    For example, <span class="person">Joseph Warren</span>, a leading Revolutionary and Mason, became a
-                    Freemason in <span class="date 1700">1761</span> but was not very active until <span
-                        class="date 1700">1765</span>. Warren's Masonic rise to lodge master in <span
-                        class="date 1700">1768</span> and, a year later, to grand master of the Ancients paralleled his
-                    politicization: he emerged simultaneously as spokesman for the "Liberty Party" decried by <span class="person">Francis Bernard</span> and <span class="person">Thomas Hutchinson</span>. Cary believed there was a connection, claiming that
-                    Warren's "activities in this society were closely related to his political interests." Lodge records
-                    are only comparatively full because the North End Caucus, Monday Night Club, and even the Boston
-                    Sons of Liberty left virtually none. Lodge records say nothing about Revolutionary sympathies or
-                    actions. Warren either never committed to paper his reasons for being a Mason or that personal
-                    testament has not survived. In short, there is no
-                    traceable, direct connection between his Freemasonry and his Revolutionary politics. The same is
-                    true of Otis and Revere.25
-                    </p>
-                    In Warren's case, an indirect approach yields more. In <span class="date 1700">1775</span>, Warren
-                    was slain during the fighting on Breed's Hill and the British dumped his body into a simple grave
-                    after the battle. Local patriots exhumed and reinterred the remains in <span
-                        class="person 1700">1776</span>. <span class="person">Perez Morton</span>, master mason and
-                    Warren's political ally from earlier years, delivered an address to mark the event. Morton lauded
-                    Warren as a virtuous, "matchless Patriot" in his public life and as a 'Tattern for Mankind" in his
-                    private affairs. "What a bright example he set [as grand master] to live within Compass, and act
-                    upon the Square." Of all Warren's associations, Morton averred, "on none did he place so high a
-                    Value" as Masonry. Morton did not state that Masonry was the source of Warren's patriotism or assert
-                    that Masons had led the protest against imperial policy, much less that Masons had been behind the
-                    Boston Tea Party or any other Revolutionary act.26
-                    But Morton did link the virtues of Masonry with the virtues of the American cause. He felt that
-                    Warren had been more noble in death than <span class="person">General James Wolfe</span> on the
-                    Plains of Abraham in <span class="date 1700">1759</span> because Wolfe "died
+        </button>
+        <div class="panel">
+            <div id="map"></div>
+        </div>
+        <button class="accordion menu__link" id="people">People
 
-                    24 Robert Hieronimus, America's Sacred Destiny (Rochester, Vt., 1989).
+        </button>
+        <div class="panel">
+            <form role="form">
+                <div class="checkbox"><label>
+                        <input type="checkbox" id="showpeople" class="show">Forrest</label></div>
+                <div class="checkbox"><label>
+                        <input type="checkbox" id="showp" class="show">Brownlow</label></div>
+            </form>
+        </div>
+        <button class="accordion menu__link" id="events">Events
 
-                    25 Cary, Joseph Warren, 55.
+        </button>
+        <div class="panel">
+        </div>
 
-                    26 perez Morton, An Oration (Boston, 1776), 7,9.
-
-                    contending for a single Country" while Warren "fell to the Cause of Virtue and Mankind." By
-                    paraphrasing Thomas Paine's Common Sense to make the war something more than a colonial revolt,
-                    Morton implicitly tied Masonry and the American cause together. Morton implored his listeners that
-                    only by fighting for their independence would they honor Warren's sacrifice and ensure that a
-                    patriot's blood had not been shed in vain.27
-                    A few months before his death, Warren delivered the fourth annual Boston Massacre oration and
-                    proclaimed that "personal freedom is the natural right of every man; and that property or an
-                    exclusive right to dispose of what he has honestly acquired by his own labor, necessarily arises
-                    therefrom, are truths which common sense has placed beyond the reach of contradiction." Dozens of
-                    patriot orators who were not Masons ex pounded similarly. Yet perhaps Warren's Masonic tie, with its
-                    emphasis on the right of freemen to associate voluntarily, strengthened his attachment to such
-                    widely held notions.28
-                    Masonry also could have helped convince Warren that the colonists were victims in a plot to
-                    undermine their liberties. Like other patriots, Warren viewed British actions as conspiratorial as
-                    well as tyrannical and thereby "repugnant to every principle of reason and natural justice." In
-                    <span class="date 1700">1775</span>, he reiterated sentiments that he had expressed three years
-                    previously in his first oration, when he had condemned "base" British "designs" and "repeated
-                    attacks made upon our freedom." For Warren the Revolutionary American susceptibility to
-                    conspiratorial fears may have been under scored by Masonic beliefs. In his eulogy Morton lamented
-                    that it was Warren's fate, "like the great Master builder of the Temple of old, to fall by the Hands
-                    of Ruffians, and be again raised in Honor and Authority." This was a veiled allusion to an essential
-                    part of Masonic ritual: master masons were expected to be able to recite how Hiram Abif, master
-                    mason of Solomon's temple, was murdered by three "ruffians"—who may have been unscrupulous
-                    colleagues. They wanted to know Hiram's secrets and when he refused to tell them, they killed him
-                    and hid the body. Hiram was soon discovered by his friends and reburied with great honor. Every time
-                    Warren had passed through lodge rituals he heard this tale of a world filled with conspiracy and
-                    corruption.29
-
-                    27 Ibid., 11.
-
-                    28 Joseph Warren, An Oration (Boston, 1775), 6.
-
-                    29 Ibid., 12-13,14; Morton, An Oration, 8. Since Freemasons in the eighteenth century did
-                    not publish the texts of their ceremonies for public consumption, outsiders learned of
-                    Hiram's fate, as related in the master mason's ritual, in Samuel Prichard, Masonry Dissected
-                    (London, 1730), 32-36, and Jachin and Boaz (London, 1762; reprint, New York, 1796), 29-33.
-
-
-                    Masons pledged to be dutiful citizens who would play no part in such evil doings. "A Mason is a
-                    peaceable Subject to the Civil Powers, wherever he resides or works," preached Anderson in his
-                    Constitutions, "and is never to be concern'd in Plots and Conspiracies against the Peace and Welfare
-                    of the Nation." Masons had been encouraged, even protected, by rulers over the centuries and they
-                    owed fealty to their benefactors.
-                    So that if a Brother should be a Rebel Against the State, he is not to be countenanc'd in his
-                    Rebellion, however he may be pitied as an un happy Man; and if convicted of no other Crime, though
-                    the loyal Brotherhood must and ought to disown his Rebellion, and give no Umbrage or Ground of
-                    political Jealousy to the Government for the time being; they cannot expel him from the Lodge, and
-                    his Relation to it remains indefeasible.30
-
-                    Rebellion was hateful but, taken alone, it was not reason enough to expel a member. Masonic
-                    commitment to virtue and benevolence, as well as to loyalty derived from comity and government based
-                    on consent, could ultimately have pushed Warren and other Masons into rebellion.
-                    Within Masonic lodges the leaders were expected to defer to majority will under the threat of
-                    removal as were the grand lodge officers in their dealings with lodges under them. Masonic teaching
-                    and protocol did not require unquestioning support of authority inside the lodge or out.
-                    "Government, therefore, in some Form or other, must be the Will and Appointment of God," declared
-                    one Mason in <span class="date 1700">1755</span>, so colonists should respect the British
-                    constitution and the "just authority" of the king. "The Submission of Individuals must be a most
-                    sacred Duty," yet good government "is founded on Consent, and a View to public Good." Resistance to
-                    bad government was a last resort, but the "Doctrine of non-resistance is now sufficiently exploded,
-                    and may it be eternally treated with that sovereign Contempt which it deserves among a wise and
-                    virtuous people."31
-                    Therefore, when American Revolutionaries eventually fought for independence after first rising to
-                    defend their rights under the British constitution, it made perfect sense for Freemasons like Warren
-                    to be among
-
-                    30 Anderson, Constitutions, 48, 49. The "Charges" in Dermott's Ahiman Rezon were
-                    similar, an illustration of the fact that Ancients and Moderns agreed on most fundamental
-                    issues. See also the "short Charge" in Calcott, Candid Disquisition, appendix, 190-192.
-
-                    31 Smith, Sermon, 16-17. Smith edited the first American print of Ahiman Rezon in 1783.
-                    Though Smith "abridged and digested" it, he kept intact the "Charges" of the original
-                    edition.
-
-
-                    them. In choosing between loyalty to an empire that required subordination to the Crown and
-                    Parliament, on the one hand, or a defense of political autonomy and natural rights, on the other,
-                    Masonic doctrine may have helped simplify the choice. For Morton and Warren, Masonry may have
-                    strengthened their attachment to a radical Whig political ideology laced with revolutionary
-                    undertones. As Morton told his listeners, the American cause and patriotism—like Masonry—were
-                    virtuous. Not surprisingly, by the war's end some patriotic Masons even strayed across the line that
-                    kept the Brotherhood apolitical, as they linked national independence with the spread of Masonic
-                    ideals.32
-                    Not every Mason became a Revolutionary, and some became or remained Loyalists. Similarly, not every
-                    Anglican espoused Loyalism, nor did every Congregationalist fight for independence. A simple
-                    institutional explanation for political affiliation is not enough. Nevertheless, it is worth
-                    considering how an institutional association might have affected individuals. Freemasonry appealed
-                    to thousands of men in eighteenth-century America and thousands more in Britain. Those who became
-                    Masons did so for a variety of reasons, including status enhancement, social mobility, camaraderie,
-                    civic-mindedness, the satisfaction of mastering a ritual, or curiosity about the occult. Few Masons
-                    recorded why they chose to join. That Freemasonry played a part, however indirectly and
-                    inadvertently, in the coming of the American Revolution seems plausible. Among those who became
-                    Revolutionaries, Masonry could have heightened their fear of a conspiracy against their liberties.
-                    If the Revolutionary generation was concerned with the role of virtue in society, as recent
-                    historians have stressed, Masonry could have deepened that concern, as well as a sense of community
-                    responsibility and filial obligation among those who joined
-                    and led the Revolutionary movement. At the same time, Masonry could also have pushed others into
-                    Loyalism—men who had their sensibilities heightened by Masonic involvement but for their own reasons
-                    chose the other side of the political contest.
-                    Freemasonry should be included as a variation on the ideological and institutional themes that have
-                    caught the attention of recent historians. Yet much remains unknown and unknowable. Historians are
-                    obliged to draw inferences from incomplete records, a difficult task made even more difficult when
-                    dealing with Freemasonry. Did those Masons who became Revolutionaries—or Loyalists—do so because
-                    they were already inclined, before they entered the Brotherhood, to think and act a certain way? Or
-
-                    32 See, for example, James M. Varnum, An Oration (Providence, n.d.), delivered on 27
-                    December 1782 to Masons assembled in Providence, Rhode Island.
-
-
-                    did their Masonic association accentuate tendencies that would otherwise have lain dormant?
-                    Historians can infer and they can surmise, but they may not be able to explain fully the influence
-                    of Freemasonry.
-                    
-                <p class="notes">
-                    4idem. Living the Enlightenment: Freemasonry and Politics in 18th-Century Europe (New York, 1991);
-                    Wayne A. Huss, The Master Builders, 3 vols. (Philadelphia, 1986-1989); Steven Conrad Bullock, "The
-                    Ancient and Honorable Society: Freemasonry in America, 1730-1830" (Ph.D. diss., Brown University,
-                    1986); idem, "A Pure and Sublime System: The Appeal of Post Revolutionary Freemasonry," journal of
-                    the Early Republic 9 (1989): 359-373; idem, "The Revolutionary Transformation of American
-                    Freemasonry, 1752-1792," William and Mary Quarterly 57 (1990): 347-369.
-
-                    5 Henry Wilson Coil, A Comprehensive View of Freemasonry (1954; reprint, Richmond, Va., 1973), 144,
-                    149. Ronald E. Heaton, Masonic Membership of the Founding Fathers (Washington, D.C., 1965); Allen E.
-                    Roberts, Washington: Master Mason (Richmond, Va., 1976); idem. Freemasonry in American History
-                    (Richmond, Va., 1985).
-
-                    6 James Anderson, The Constitutions of the Free-Masons (London, 1723; reprint, Philadelphia, 1734);
-                    James Anderson, The New Book of the Constitutions of the Ancient and Honourable Fraternity of Free
-                    and Accepted Masons (London, 1738), 7,12-13,15. See Robert Freke Gould, The Concise History of
-                    Freemasonry, rev. ed. (London, 1920). For the emergence of Freemasonry, see Douglas Knoop and G. P.
-                    Jones, The Genesis of Freemasonry (Manchester, 1947); David Stevenson, The Origins of Freemasonry
-                    (Cambridge, 1988); John J. Robinson, Born in Blood (New York, 1989). For a recent critique of
-                    Anderson, see John Hamill, The Craft (Wellingborough, 1986), 11-27.
-                        7 Anderson, Constitutions; idem. New Book of the Constitutions, 7,12-13,15.
-    
-                        8 Anderson, New Book of the Constitutions, 18.
-                        9 Ibid., 2^-36
-
-                        10 William Preston, Illustrations of Masonry, 2nd ed. (1772; reprint, London, 1775), 14-15,
-                        17-18. Wellins Calcott, A Candid Disquisition of the Principles and Practices of the Most
-                        Ancient and Honourable Society of Free and Accepted Masons (London, 1769; reprint, Boston,
-                        1772), 77. See also William Hutchinson, The Spirit of Masonry (London, 1775).
-                        11 [Anderson], Constitutions, 49-50,55,56.
-
-                        12 Gould, Concise History, 242-243; Hamill, The Craft, 45-48.
-                        13 Laurence Dermott, Ahiman Rezon: Or A Help to all that are, or would be Free and Accepted Masons,
-                        3d ed. (1756; reprint, London, 1778). The handbook of the Ancients was not all that different from
-                        Anderson's Constitutions.
-                        14 Julius F. Sachse, Old Masonic Lodges of Pennsylvania: Moderns and Ancients, 1730-1800, 2 vols.
-                        (Philadelphia, 1912-13) is an antiquarian's delight, although Sachse showed both the scarcity of
-                        records beyond mere membership lists and brief meeting notices, and the relative weakness of some
-                        lodges.
-                        15Proceedings in Masonry: St. John's Grand Lodge, 1733-1792: Massachusetts Grand Lodge,
-                        1769-1792 (Boston, 1895), 102,105.
-    
-                        16 Calcott, Candid Disquisition, listed over 230 subscribers for the 1775 Boston edition,
-                        including men from both Ancient and Modem lodges.
-    
-                        17 William Tudor, The Life of James Otis (Boston, 1823). Tudor, who warned that "mere
-                        fragments" survived from Otis' personal life, did not discuss Otis' Freemasonry.
-                        18 Esther Forbes, Paul Revere and the World He Lived In (1942; reprint, Boston, 1969), 197;
-                        John Cary, Joseph Warreru Physician, Politician, Patriot (Urbana, 1961), 55,57.
-    
-                        19 Cary, Joseph Warren, ix, 55.
-    
-                        20 Forbes, Paul Revere, 197; Elbridge Goss, The Life of Colonel Paul Revere, (Boston, 1891),
-                        1:121-122, 127; 2:465-495. See also Edith J. Steblecki, Paul Revere and Masonry (Boston,
-                        1985).
-                        21 Benjamin Woods Labaree, The Boston Tea Party (Oxford, 1964), 142, emphasis added.
-
-                        22 For the continuing mystery surrounding the fate of the Gaspee, see Neil York, "The
-                        Uses of Law and the Gaspee Affair," Rhode Island History (forthcoming). Richard S.
-                        Patterson and Richardson Dougall, The Eagle and the Shield (Washington, D.C., 1976), 532.
-    
-                        22 For estimates of American Masonry membership, see Henry Wilson Coil, Coil's
-                        Masonic Encyclopedia (New York, 1961), 39; Bobby J. Demott, Freemasonry in American
-                        Culture and Society (Lanham, Md., 1986).
-
-
-                </p>
-            </div>
     </div>
+    <div class="sidecont-txt metarticle-inv-txt" id="article-txt-id">
+
+        <button class="accordion btn" id="dates">Issue 1: KKK
+        </button>
+        <div class="panel">
+            <ul>
+                <li><a href="kkk1.html">The Terror is Born</a></li>
+                <li><a href="kkk2.html">The Ku Klux Klan: Continuity and Change</a></li>
+                <li><a href="kkk3.html">The Rhetoric of Hiram Wesley Evans and the Klan of the 1920s</a></li>
+            </ul>
+        </div>
+        <button class="accordion btn" id="places">Issue 2: Freemasonry
+
+        </button>
+        <div class="panel">
+            <ul>
+                <li><a href="kkk1.html">Freemason and the American Revolution</a></li>
+                <li><a href="kkk2.html">Voluntary Associations and Civil Religion: The Case of Freemasonry</a></li>
+                <li><a href="kkk3.html">Freemasonry and Sir John Soane</a></li>
+            </ul>
+        </div>
+        <button class="accordion btn" id="people">Issue 3: Skull and Bones
+        </button>
+        <div class="panel">
+
+        </div>
+    </div>
+    <div id="button-txt-id">
+        <button class="openbtn menu__link" onclick="openDiv('metadata-txt-id', 'article-txt-id')"
+            id="button-meta"> <!--cambiare con js-->
+            Metadata
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 152.9 43.4" style="enable-background:new 0 0 152.9 43.4;" xml:space="preserve"
+                id="pencil-circle-id">
+                <path
+                    d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+            </svg>
+
+        </button><br>
+        <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+            <defs>
+                <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6"
+                    fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" />
+            </defs>
+        </svg>
+        <button class="openbtn btn" onclick="openDiv('article-txt-id', 'metadata-txt-id')"
+            id="button-art">Articles
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line" id="underline"></use>
+            </svg>
+        </button>
+    </div>
+    <main id="main-txt-id">
+        <div id="introduction-txt-id">
+            <h1>VOLUNTARY ASSOCIATIONS AND CIVIL RELIGION: THE CASE OF FREEMASONRY</h1>
+        </div>
+        <h2 class="author" id="author">JOHN WILSON</h2>
+        <div class="text" lang="en">
+<p>A random sample survey of Freemasons in a <span class="place state">Midwestern state</span> shows that they mainly are drawn from higher socioeconomic strata, although less so than 20 years ago. Most members described themselves as inactive and unfamiliar with lodge proceedings, yet they exhibit staunch loyalty to the Order and firm commitment to its ideals. This paradox is resolved with the help of ideas drawn from <span class="writer">Bellah's</span> writings on civil religion. In the <span class="place state">United States</span>, voluntary associations perform a variety of functions. For the individual, they provide affective support and a sense of solidarity with others who have similar interests. For society as a whole, they can "be considered as integrative entities at the community, regional, or national level" (<span class="writer">Babchuk and Edwards, 1973:265; see Cutler, 1973:135; Rose, 1967</span>). Perhaps no secondary association fills the interstices between the family and the larger community as well as the fraternal order, with its special mixture of private pleasures and service. The fraternity is both a haven, in which private interests and gratifications can be pursued, and a social action group, through which public commitments can be expressed. This dual role of fraternities is of special interest to me in this paper. The epitome of fraternalism in the United States is Freemasonry, which serves as the model for most other fraternal orders. It is to be expected that it, too, will function as a link between the private and public spheres. But Freemasonry is, to some extent, a special case among fraternities. Much more than any other order, it stresses esoteric learning and the promulgation of a moral system grounded in religious belief. Its quasi-religious character is witnessed by the hostility with which it has been treated by many of the more orthodox religious bodies (<span class="writer">Meyers, 1960</span>). In conducting this study, I was guided by a number of expectations about the membership of Freemasonry, most of them derived from the research literature on fraternities and kindred organizations. I expected that, as true of voluntary associations in general (<span class="authors">Smith and Freeman, 1972</span>), the Masons would be more heavily middle class than the general population. Looking at their level of involvement in the fraternity, I expected to find that few members would be highly active in lodge affairs and that those who occupy leadership positions would be drawn disproportionately from the higher socioeconomic strata. I also, of course, expected that expressive orientations would be more common among members than instrumental ones. We shall see that most of these expectations were confirmed. But data analysis revealed an apparent paradox in membership commitment. The data report a largely inactive membership, which, at the same time, is staunchly loyal to the principles of Freemasonry and convinced of its value as a means of moral education and training for citizenship. It has been reported before that fraternal orders tend to have the most loyal following (<span class="writer">Babchuk and Booth, 1973:28</span>); the Masons are no exception in this regard. I will attempt to resolve this paradox by taking into account the role of the Shriners in the decision to become a Mason, for there is a suggestion in these data that membership of the <span class="congregation">Blue Lodge</span> is being used only as a "way station" for membership of the Shrine. In the second part of the paper, I will comment on the function of membership in the fraternity. Masons see themselves as members of a special kind of fraternity, having a quasi-religious character others lack. Much of what the order teaches is a vigorous defense of values deemed especially American. Masonic literature and, as we shall see, the attitudes of members reflect a certain image of the United States which, following Bellah's (1970:182) suggestion, I will characterize as civil religion.</p>
+<p>Freemasonry is part of the American Civil Religion has also been argued by <span class="writer">Jolicoeur and Knowles (1978)</span>. From a content analysis of Masonic literature, they found that many of the themes identified by Bellah as characteristic of civil religion occurred with great regularity. There was, first, a staunch defense of the American Constitution and the identification of that document (and the Bill of Rights) as inspired by Masonic thought. Second, repeated references were found to a rather abstractly conceived Supreme Being. Third, there occurred a spirited defense of what <span class="writer">Jolicoeur and Knowles (1978:16)</span> refer to as "the republican virtues" - individual freedom, free enterprise, a limited role for the state, and law as the basis of social order. The data on members' attitudes toward various aspects of the order's activities and mission gathered in this study lend support to this interpretation. Freemasons, besides explicitly promulgating values of voluntarism, fraternity, and individual liberty, also treat being religious and being political as ultimate values, without making commitments as to the specific form this fusion of religion and politics should take.</p>
+<p>The significance of membership in Freemasonry can be appreciated only if we ignore the fact that it is supposedly a secret society and concentrate instead on its more symbolic role as providing generalized support for citizenship.</p>
+<h3>METHODS</h3>
+<p>Although much has been written about Freemasonry, no sociological survey of the characteristics and attitudes of its members by a non-has been published. The data reported in this paper were gathered means of a random sample survey of the members of a Grand jurisdiction of which is coterminous with the boundaries of states in the Midwest. The project was approved by <span class="congregation">Grand Lodge</span> who advised on the phrasing of certain items although they exercised censorship. The initial mailing to nine hundred members was accompanied by a cover letter from the Master of the <span class="congregation">Grand Lodge</span> urging the comnpletion and return of the questionnaire. Despite two follow-up mailings, the response rate could not be pushed above 37 percent. Without access to the mailing list of the <span class="congregation">Grand Lodge</span>, it was not possible to identify nonrespondents. Clearly, only the most tentative generalizations can be made on the basis of these data alone. Furthermore, we cannot be sure that the members of a <span class="congregation">Midwestern Lodge</span> are typical of all American Masons. However, these data do provide information which has not hitherto been available to sociologists interested in fraternal orders, and their implications are certainly worth reporting. The questionnaire consisted of three parts: items on the member's level and type of participation in the <span class="congregation">Blue Lodge</span> and other Masonic bodies; items designed to elicit the individual's attitude toward the lodge and the craft in general; and, finally, items having to do with the socioeconomic and demographic characteristics of the respondent. Analysis of the data focuses on the two major concerns of this paper: the characteristics of Freemasonry as a voluntary association and its function as part of the civil religion.</p>
+<h3>FREEMASONRY AS A VOLUNTARY ASSOCIATION </h3>
+<p>The basic unit of Freemasonry is the <span class="congregation">Blue Lodge</span>, which is made Master Masons who have completed the first three degrees of Membership of the Lodge is granted only to! those who believe in a Being and are over 21, male, literate, physically able, and "free There are no blacks in the Scottish Rite <span class="writer">Schmidt and Babchuk, 1973</span>:Table 1 compares occupational, income, and educational information gathered in this study with what the Census Bureau tells us about males in the state in which this survey was conducted.</p>
+<p>As expected, Masons are more heavily middle class than the general population. Particularly noteworthy is the overrepresentation of the professional and managerial categories and the large percentage difference in the proportion supporting some college experience. In a Study conducted in another <span class="writer">Whipple (1969:105</span>) found that only 30 percent of the initiates drawn from the professional and managerial ranks, so we must be cautious about generalizing on the basis of these data. Some of the discrepancy between Whipple's findings and those reported here can be attributed to the nature of Whipple's sample, which, composed of initiates, probably contained a higher proportion of younger men than would be found in the general population or in a general sample of all Masons. These younger men would in all likelihood be of lower socioeconomic status. Taking age into account when considering the economic status of Masons is very important, especially in view of the fact that age and socioeconomic status tend to be positively correlated. The distribution of this sample was skewed toward the older age groups. 35.4 percent were over 50 compared with 35.4 percent in the state as a whole. No doubt part of the middle-class bias of the sample is due to this distribution. Whipple's findings raise the question of whether or not those entering Freemasonry now have the same status as those who entered years ago. I compared Masons who joined within the last 10 years with those who had been Masons for 20 years or more, adjusting for possible period and cohort effects by controlling for age. Although income levels had not changed,
+Masons who joined prior to 1955 were 33 percent more likely to have managerial or professional jobs and 19 percent more likely to have obtained a college degree. From this sample, at least, there are clear signs of declining socioeconomic status among Freemasons as a whole, a decline that might have important consequences for the order, some of which I will discuss in the conclusion.  </p>
+<h3>Table 1</h3>
+<h3>EDUCATION, OCCUPATION AND FAMILY INCOME OF FREEMASONS AND IALES OVER 15 IN A MID-WEST STATE 1975</h3>
+<p>
+<table>
+<tr>
+    <td></td>
+    <td colspan="2"> 1975 Censusa N (in thusands percent)</td> 
+
+    <td colspan="2">Masons (1977) N (338) Percent</td>
+</tr>	
+<tr>
+    <td>Education</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Elementary</td>
+    <td>112</td>
+    <td>18.7</td>
+    <td>26</td>
+    <td>8.7</td>
+</tr>
+<tr>
+    <td>High School</td>
+    <td>286</td>
+    <td>47.9</td>
+    <td>122</td>
+    <td>36.0</td>	
+</tr>
+<tr>
+    <td>College</td>
+    <td>198</td>
+    <td>33.?</td>
+    <td>184</td>
+    <td>54.4</td>
+</tr>
+<tr>
+    <td>No answer</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+</tr>
+<tr>
+    <td>Occupation</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Professional</td>
+    <td>88</td>
+    <td>13.0</td>
+    <td>110</td>
+    <td>35.3</td>
+</tr>
+<tr>
+    <td>Managerial</td>
+    <td>90</td>
+    <td>13.3</td>
+    <td>80</td>
+    <td>25.7</td>
+</tr>
+<tr>
+    <td>Sales</td>
+    <td>35</td>
+    <td>5.2</td>
+    <td>26</td>
+    <td>8.3</td>
+</tr>
+<tr>
+    <td>Clerical</td>
+    <td>35</td>
+    <td>5.2</td>
+    <td>17</td>
+    <td>5.4</td>
+</tr>
+<tr>
+    <td>Craftsmen</td>
+    <td>138</td>
+    <td>20.5</td>
+    <td>37</td>
+    <td>11.9</td>
+</tr><tr>
+    <td>Operatives</td>
+    <td>157</td>
+    <td>23.3</td>
+    <td>19</td>
+    <td>6.1</td>
+</tr><tr>
+    <td>Service</td>
+    <td>49</td>
+    <td>7.2</td>
+    <td>0</td>
+    <td>0.0</td>
+</tr><tr>
+    <td>Farm</td>
+    <td>80</td>
+    <td>11.9</td>
+    <td>23</td>
+    <td>7.4</td>
+</tr>
+<tr>
+    <td>No answer</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+</tr>
+<tr>
+    <td>Total Family Income<sup>c</sup></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Less than $9,999</td>
+    <td>178</td>
+    <td>30.3</td>
+    <td>80</td>
+    <td>23.6</td>
+</tr>
+<tr>
+    <td>10,000 - 14,999</td>
+    <td>155</td>
+    <td>26.4</td>
+    <td>66</td>
+    <td>19.5</td>
+</tr><tr>
+    <td>15,000 - 19,999</td>
+    <td>106</td>
+    <td>18.0</td>
+    <td>50</td>
+    <td>14.8</td>
+</tr><tr>
+    <td>20,000 - 24,999</td>
+    <td>65</td>
+    <td>11.0</td>
+    <td>50</td>
+    <td>14.8</td>
+</tr><tr>
+    <td>25,000 and over</td>
+    <td>83</td>
+    <td>14.1</td>
+    <td>82</td>
+    <td>24.2</td>
+</tr>
+</table>
+</p>
+<sup>a</sup> U.S. Bureau of Census, Current Population "Money and Income and Poverty Status in 1975 of Families and Persons in the United States and the North Central Region,by Divisions and States.<br>
+<sup>b</sup> years of school completed by those over 25 in 1975. <br>
+<sup>c</sup> Whites only.<br>
+
+<p>A number of expectations informed the analysis of pattern of involvement in Freemasonry. We know that most members of voluntary associations are rather inactive (<span class="writer">Axelrod, 1973:40</span>). We also know that in most voluntary associations members of higher socioeconomic status are more likely to hold office (<span class="writer">Sills, 1957:20</span>). Given the emphasis on tradition, accumulated wisdom, and continuity in Freemasonry, I expected the older and more experienced Masons to be the most active. Finally, I anticipated that expressive rather than instrumental kinds of participation would predominate. (1) A very large proportion (81.4 percent) of the sample describe themselves as "inactive" or "somewhat inactive" in the affairs of their lodge. Only one-third keep "well informed" about what is going on in the lodge and three-quarters had missed all or most of the "stated communications" the previous year. (2) Table 2 shows that the expected correlation between socioeconomic status and activity level does not appear. Holding other factors constant, the beta coefficient of socioeconomic status and activity level is only .10. Nor is it true, as we might have expected, that officeholding is more typical of higher socioeconomic groups in the Masons. Among those under 65, no relation at all between income or education and officeholding emerged; occupation was very weakly correlated (.16, p.001). </p>
+
+<h3>Table 2</h3>
+<h3>INTERCORRELATIONS OF MEMBERSHIP CHARACTERISTICS</h3>
+<table class="particularTable">
+<tr>
+    <th>Variables</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>7</th>
+    <th>8</th>
+    <th>9</th>
+</tr>
+<tr>
+    <td>1. Number of Years a Mason</td>
+    <td>.12<sup>a</sup></td>
+    <td>08</td>
+    <td>-.06</td>
+    <td>.62<sup>a</sup></td>
+    <td>-.19</td>
+    <td>.28<sup>a</sup></td>
+    <td>-.03</td>
+</tr>
+<tr>
+    <td> 2. Grandfather and Father a Mason</td>
+    <td>.11<sup>a</sup></td>
+    <td>.12<sup>a</sup></td>
+    <td>-.03<sup>a</sup></td>
+    <td>-.17<sup>a</sup></td>
+    <td>-.05<sup>a</sup></td>
+    <td>-.11</td>
+    <td>17<sup>a</sup></td>
+</tr>
+<tr>
+    <td>3. Number of Friends Masons</td>
+    <td></td>
+    <td>.04</td>
+    <td>-.08</td>
+    <td>.06</td>
+    <td>.14<sup>a</sup></td>
+    <td>-.05</td>
+    <td>.01</td>
+</tr>
+<tr>
+    <td> 4. Frequency of Church Attendance</td>
+    <td></td>
+    <td></td>
+    <td>-.03</td>
+    <td>.03</td>
+    <td>.20</td>
+    <td>-.02</td>
+    <td>.12 </td>
+</tr>
+<tr>
+    <td> 5. Size of Community</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>.06</td>
+    <td>.17<sup>a</sup></td>
+    <td>-0.2</td>
+    <td>.12 <sup>a</sup></td>
+</tr>
+<tr>
+    <td>6. Age</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>.09<sup>a</sup></td>
+    <td>.33<sup>a</sup></td>
+    <td>-.26 <sup>a</sup></td>
+</tr>
+<tr>
+    <td> 7. Level of Activity<sup>b</sup></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>.06</td>
+    <td>.19 <sup>a</sup></td>
+</tr>
+<tr>
+    <td> 8. Localism<sup>c</sup></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>.02</td>
+</tr>
+<tr>
+    <td> 9. SES</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+<sup>a</sup>Significant beyond the .05 level of confidence <br>
+<sup>b</sup>Level of activity measured by number of stated and emergent communicationS missed the previous year, number of masonic funerals attended and self- ratings of overall level of activity. <br>
+<sup>c</sup>Localism measured by three items: "How long have you lived in the community in which you now reside?"; "What are your chances of moving in the next two or three years?"; "Do you own the home in which you live or do"
+
+
+<p>(3)Table 2 shows only weak associations between age and level of activity, but multiple regression shows a beta coefficient of .25 when age is isolated. This probably reflects the greater importance older Masons attribute to the fellowship and benevolence a lodge provides. Curiously, however, level of activity is inversely related to number of membership years (beta, -.167). It seems as if, whatever the age of joining, becoming a member is followed by a flurry of activity which subsides over time. 
+<p>(4) It is commonly accepted that all voluntary associations have both instrumental and expressive dimensions. Instrumental interests are those which have some consequence for the wider community; expressive interests are self-contained and concern the intrinsic satisfactions derived from participation itself (<span class="writer">Edwards and Booth</span>, 1973a:1). </p>
+<p>The goals of Freemasonry are primarily expressive, and it is this aspect of the order which is more important to the membership. For example, 63 percent agree that: "Although Freemasonry does good works in the community, what I most like about it is the fellowship and enjoyment get out of lodge meetings." Only one-third see the order as a "mainly charitable organization." The multiplicity of goals in an organization like Freemasonry means that different people can find different satisfactions in it. <span class="writer">Edwards and Booth</span> (1973b:280), assuming a "strain toward consistency" between occupation and orientation toward voluntary association membership, hypothesize that service and manual workers, "whose occupational rewards are more or less immediate, would be most likely to engage in expressive activities." Professionals and others who hold jobs in which "the net rewards . . . are postponed" would, they suggest, exhibit a similarly instrumental attitude toward voluntary work "in which rewards are also deferred." In order to test this hypothesis, an instrumental/expressive scale adapted from Jacoby and Babchuk (1963) was incorporated in the questionnaire. The data do not invalidate the hypothesis, but the beta of 0.1 for the relatiship between occupational category and instrumentalism (independent, that is, of income, education, age, and Mason years) shows how weak the relationship is for these Masons. Income level was somewhat more strongly and positively associated with instrumental orientation (beta, 0.23). It seems as if the service side of the order is more attractive to those with more discretionary income. If higher income members are more outward looking in this sense, they are also more likely to see their membership of the order as one of a general constellation of secondary involvements. In other words, they are more likely to belong to other voluntary associations and more likely to belong to other Masonic bodies. Furthermore, they are more likely to feel that one of the most important goals of the order is that of serving others. These data confirm the suspicions of <span class="writer">Edwards and Booth</span>. Middle-class members are using the order for different purposes. Possibly, they are using it more formally as an instrument for community involvement, as a public activity that is bound up tightly with other aspects of their more public lives. Lower status members (who are just as regular in their attendance) are more oriented toward the private concerns of fellowship and probably look to the lodge primarily for moral support, catharsis, and comfort. The data on participation in the order show that most Masons are not regular attenders at lodge meetings and are not very well informed about what is going on in the lodge. There is no marked variation in level of participation by socioeconomic status, age being the only demographic factor to influence depth of involvement. Added to these signs of apathy is a rather extensive ignorance about some of the more basic teachings of the order. Respondents were asked to answer a series of 12 statements about some of the symbolism and insignia of Freemasonry with a simple "correct/false" choice.</p>
+<p>For example, they were asked: "Which of the following are the symbols of the Fellow Craft degree: (1) Level; (2) Plumb; (3) Trowel; (4) Beehive?" Only 5 percent could answer none of these questions correctly, and 69 percent answered half of them correctly, but only 29 percent gave correct answers to three-quarters and only 3 percent got them all right. The Masons are not unique in having a rather apathetic and unknowing membership. But there are some other data in this survey which make the case of the Masons particularly interesting. Low levels of participation could reasonably be taken as a sign of loose attachment to an organization. But Masons are loyal to the order: 62 percent of this sample had been members for over 20 years. Furthermore, if we examine the attitudes reflected in Table 3, we find a keen interest in the ritual aspects of the lodge; its teachings are clearly regarded as important. In these and several other responses, Masons show no disaffection with the elaborate ritual so commonly associated with the craft nor do they show much sign of feeling that the teachings of the craft are irrelevant to their daily concerns. It is as if the members are committed to the idea of Freemasonry without being prepared to make the commitment to its practice. One is reminded here of those people who report to pollsters that, although they do not themselves practice devotions or attend church frequently, they look upon religion as "a good thing." There is a rather pragmatic solution to this apparent paradox. Membership in the <span class="congregation">Blue Lodge</span> is a requisite for membership of the Scottish and York Rites and of the Shrine. It is no secret among Masons that, compared to meetings of the Shrine, lodge meetings can be rather dull. It might well be that some of this inactivity in lodge affairs is associated with the fact that many Masons become members of the lodge, pay dues to the lodge, and retain a formal commitment to the principles for which it stands but devote their energies and interests to the activities of the Shrine. It is quite significant that 48 percent of this sample reported that the Shriners had been "very" or "quite" important to them when deciding to become a Mason. There is no doubt some truth to this idea, but it is not the whole answer, for it ignores some of the more profound aspects of membership in a fraternity that, more than any other, expects a commitment to learning, moral education, and the attachment of fraternal duties to a value system. It is straining credibility to argue that Freemasonry operates merely as a way station to the Shrine. FREEMASONRY AND CIVIL RELIGION I indicated at the beginning of this paper that the way to resolve paradox between formal commitment to the idea of the order and siderable apathy about its specific activities is to look at the meaning the support Freemasons give to citizenship. </p>
+<h3>Table 3</h3>
+<h3>ATTITUDES TOWARD RITUAL AND TEACHINGS AMONG FREEMASONS</h3>
+<h3>(Percent)</h3>
+<table class="particularTable">
+<tr>
+    <td></td>
+    <td> Completely Agree</td>
+    <td>Agree somewhat</td>
+    <td>Disagree somewhat</td>
+    <td>Disagree strongly</td>
+    <td>No answer</td>
+</tr>
+<tr>
+    <td>The secret rituals are an essential part of the craft for me</td>
+    <td> 47.0</td>
+    <td>26.3</td>
+    <td>9.8</td>
+    <td>10.7</td>
+    <td>6.2</td>
+</tr>
+<tr>
+    <td>Formal ceremonies are among the most important pairt of lodge meetings</td>
+    <td>  54.1</td>
+    <td>21.3</td>
+    <td>9.2</td>
+    <td> 7.7</td>
+    <td> 7.7</td>
+</tr>
+<tr>
+    <td> A Mason must increase his knowledge of the teachings of the craft</td>
+    <td>57.7</td>
+    <td>30.2</td>
+    <td>6.8</td>
+    <td>1.8</td>
+    <td>3.6</td>
+</tr>
+<tr>
+    <td>The teachings of Freemasonry will help banish ignorance among all people</td>
+    <td>34.3</td>
+    <td>26.9</td>
+    <td>12.7</td>
+    <td>18.9</td>
+    <td>7.1</td>
+</tr>
+</table>
+
+<p>I pointed out that while it is partisan in neither politics nor religion, it espouses the causes of politics and religion in the abstract, combining them in a version of citizenship which is quite congruent with the principles of conduct laid down by Americans in most versions of the civil religion described by <span class="writer">Bellah</span>. <span class="writer">Jolicoeur</span> and <span class="writer">Knowles</span> have already presented some clues as to the function of Freemasonry in this regard, and it is the purpose of this section to examine the survey data for any support that might be found for the interpretation of Freemasonry and for a way of resolving the paradox have described. The most powerful theme identified by <span class="writer">Jolicoeur</span> and <span class="writer">Knowles</span> in Masonic literature is that of increasing "the level of standing of the citizenry concerning the mythology of America, its and its enemies." Freemasons themselves claim to have "conceived, argued and ratified" the Constitution (<span class="writer">Clausen</span>, 1976:16). Nearly one-fifth of the articles sampled by <span class="writer">Jolicoeur</span> and <span class="writer">Knowles</span> mentioned the Constitution; 11.5 percent of them mentioned the Declaration of Independence. This theme of training for citizenship is reflected in the survey data: 78 percent of the sample agreed that one of the most important functions of being a Mason is that it makes a man a better citizen. Eighty-one percent agreed that Masons make the most loyal citizens. The Deistic theme identified by <span class="writer">Bellah</span> as part of the civil religion discerned in the Masonic literature; 46 percent of the articles reviewed mention "God" or "the Supreme Being" (<span class="writer">Jolicoeur</span> and <span class="writer">Knowles</span>, 1978).</p>
+
+<p>Belief in a Supreme Being is, of course, a requirement for membership in the Masons. Ninety-one percent of this sample affirmed a belief in God. Masons clearly are a religious people, but they do not see their order as competing with more orthodox religious bodies, although they are well aware of the fact that many such groups (e.g., Catholics, Lutherans, Mormons) are hostile to them. Instead, Masons see their subscription to a belief in God as the Supreme Architect as part of the system of Deistic beliefs which lie at the core of the American value system enshrined in the very Constitution the Masons helped write. They therefore regard themselves as a valuable adjunct to the established denominations, most particularly the "mainstream" denominations traditionally associated with the white middle class: Methodists, Baptists, and Presbyterians comprise 58 percent of the Masons in this sample, compared with 27 percent of the national population. We have seen that a third theme identified by <span class="writer">Jolicoeur</span> and <span class="writer">Knowles</span> is that of Freemasonry as a defender of "the republican virtues." Freemasons see themselves as helping sustain and defend, from internal and external threats, the values of the free enterprise system. A sense of mission in this regard is quite obvious from even the most casual perusal of Masonic literature.</p>
+<h3>Table 4</h3>
+<h3>ATTITUDES OF FREEMASONS TOWARD THE PURPOSES OF FREEMASONRY</h3>
+<h3>(Percent)</h3>
+<table>
+<tr>
+    <td></td>
+    <td> Completely Agree</td>
+    <td>Agree somewhat</td>
+    <td>Disagree somewhat</td>
+    <td>Disagree strongly</td>
+    <td>No answer</td>
+</tr>
+<tr>
+    <td> 1. The order should not become involved in controversial social issues</td>
+    <td>44.4</td>
+    <td>18.3</td>
+    <td>19.8</td>
+    <td>13.0</td>
+    <td>4.4</td>
+</tr>
+<tr>
+    <td>2. Although Freemasonry does good works in the community, what I like most about it is the fellowship</td>
+    <td>31.7</td>
+    <td>27.5</td>
+    <td>21.0</td>
+    <td>13.6</td>
+    <td>6.2</td>
+</tr>
+<tr>
+    <td>3. Freemasonry is mainly a charitable organiza- tion to help the dis- advantaged</td>
+    <td>13.9</td>
+    <td>17.8</td>
+    <td>28.4</td>
+    <td>34.0</td>
+    <td>5.9</td>
+</tr>
+<tr>
+    <td>4. Spreading Masonic philosophy is not so important these days as performing service</td>
+    <td>14.5</td>
+    <td>21.0</td>
+    <td>33.4</td>
+    <td>25.1</td>
+    <td>5.9</td>
+</tr>
+<tr>
+    <td>5. Becoming a Mason meant a kind of rebirth for me</td>
+    <td>32.2</td>
+    <td>30.5</td>
+    <td>20.4</td>
+    <td>12.7</td>
+    <td>4.1</td>
+</tr>
+<tr>
+    <td>6. Freemasonry teaches each individual to perform his duties as a citizen</td>
+    <td>40.5</td>
+    <td>34.5</td>
+    <td>11.5</td>
+    <td>8.9</td>
+    <td>5.0</td>
+</tr>
+</table>
+<p>But it is important to note that this mission is cast in traditionally individualistic terms. The responses to the questionnaire shown in Table 4 add support to the content analysis. The majority of Masons eschew involvement in social reform programs (item 1). Although their charitable work is well publicized, especially through Shriner activity, the majority of members do not see the purpose of the order as that of helping the less fortunate (items 2, 3, and 4). Conversely, they give strong support to ideas that exalt the service of the order for the individual and the way it teaches individual duties and obligations (items 5 and 6). <span class="writer">Jolicoeur</span> and <span class="writer">Knowles</span> report that Masonic literature reflects a heavy emphasis on building character as a means of building societies, on the moral education of individuals as opposed to the social reconstruction of communities. These survey data lend credibility to their findings. The membership requirements of Freemasonry provide a further indication of its advocacy of individualism and self-reliance; members are expected to be sober, hardworking, honest, and, perhaps above all, civic-minded. The Masons in this sample were more than diligent in their exercise of civic duties. Two-thirds were members of at least one other voluntary association, 88 percent were members of a religious denomination, and 92 percent had voted in the last presidential election (compared with 60 percent of the male population nationwide). Thus, while refraining from party politics and espousing no particular religion, they promote the ideas of being political and religious. It is exactly this combination of political and religious Americanism which <span class="writer">Bellah</span> characterized as civil religion.</p>
+
+<h3>CONCLUSION</h3>
+
+<p>In this paper, I have presented data which show that Masons, by confirming the empirical generalizations about America's "joiners," tend to be of higher socioeconomic status and to be active in other voluntary associations. I have also shown that Freemasonry is more than another voluntary association and have suggested that it can best be understood as part of the civil religion. Its activities are, in fact, a perpetual morality play in which the meaning and implications of paternalism are dramatized. In suggesting that Freemasonry—which is chiefly middle class, wholly male (except for auxiliaries), and entirely segregated—is part of civil religion, I am recognizing that civil religion is "not so neutral as its designators would have it; it is a reflection of a WASP apprehension of the world" (<span class="writer">Marty</span>, 1974:144). Freemasonry has been a ritualized celebration of the American experience as filtered through the values and interests of the white adult male. This makes the suggestion that the socioeconomic status of the membership is declining particularly interesting, for it raises the possibility that the adherence of the order to strictly middle-class values might in the future begin to waiver. The imponderable here is the role the Shriners play in attracting recruits to Freemasonry; it would seem that the Shrine neither enjoys nor seeks the elite status once characteristic of Masons. Any increase in the use of Masonry as a "way station" to the Shriners might well accelerate the changes which would be due to declining socioeconomic status alone. Finally, it is necessary to comment on two aspects of Freemasonry which are popularly and traditionally associated with the craft but which are barely mentioned in either this report or that of <span class="writer">Jolicoeur</span> and <span class="writer">Knowles</span>: its fraternalism and its and its secrecy. The comfort and assurance that Masons derive from the knowledge that they would be assisted by brother Masons if distressed was clear from the replies to this survey. But the "brotherhood" which Freemasonry espouses as a principle is no universal fraternalism. Excluded from the Masons' brotherhood are minority groups. They are excluded theoretically by defining "Americanism" in such a way as to render their values, lifestyle, and achievements un-American. They are excluded practically by a system of membership selection which places great emphasis on personal contacts and knowledge of "character." Fraternalism serves the purpose of exclusion more than inclusion, as the word might imply. We can also now better understand the role of secrecy in modern Freemasonry. It has long been acknowledged that Freemasons are no longer a secret society: all their secrets have been revealed (<span class="writer">Simmel, 1950:356</span>). The appeal of Freemasonry today lies not in its esoteric lore or arcane rituals but in its privacy. Freemasonry stands for the right to pursue private pleasures privately. As an organization it undertakes to protect not the deep secrets of the craft but the right of each member to a private sphere in which public demands have no place. The values for which Freemasonry publicly stands are precisely those values which will protect this private sphere, most especially those values having to do with individual freedom. It is this link between the private and the public (with which I began this paper) that Freemasonry forges, and it is this function, I am arguing, which is the chief appeal of the order today. </p>
+
+<h3>REFERENCES</h3>
+<p> Axelrod, Morris
+<br class="references"> 1973 "Urban Structure and Social Participation." Pp. 38-44 in John and Alan Booth (eds.), Social Participation in Urban Society. Cambridge: Schenkman.<br> 
+Babchuk, Nicholas, and Alan Booth 
+<br class="references">1973 "Voluntary Association Membership: A Longitudinal Analysis." Pp. 23-38 in John Edwards and Alan Booth (eds.), Social Participation in Urban Society. Cambridge: Schcnkman. 
+Babchuk, Nicholas, and John Edwards
+<br class="references">1973 "Voluntary Associations and the Integration Hypothesis." Pp. 265-74 in John Edwards and Alan Booth (eds.), Social Participation in Urban Society. Cambridge: Schenkman. 
+Bellah, Robert 
+<br class="references">1970 Beyond Belief: Essays on Religion in a Post-Traditional World. New York: Harper and Row. 
+Clausen, Henry 
+<br class="references">1976 "Masons Who Helped Shape Our Nation," Supreme Council 330 Ancient and Accepted Scottish Rite of Freemasons. Southern Jurisdiction, U.S.A. 
+Cutler, Stephen 
+<br class="references">1973 "Voluntary Association Membership and the Theory of Mass Society." Pp. 133-159 in Edward Laumann (ed.), Bonds of Pluralism: The Form and Substance of Urban Social Networks. New York: Wiley and Sons. 
+Edwards, John, and Alan Booth 
+<br class="references">1973a "An Introduction to Social Participation." Pp. 7-19 in John Edwards and Alan Booth (eds.), Social Participation in Urban Society. Cambridge: Schenkman. 
+<br class="references">1973b "Implications for Research in Social Participation." Pp. 275-83 in John Edwards and Alan Booth (eds.), Social Participation in Urban Society. Cambridge: Schenkman. 
+Jacoby, Arthur, and Nicholas Babchuk 
+<br class="references">1963 "Instrumental and Expressive Voluntary Associations," Sociology and Social Research, 47:461-71. 
+Jolicoeur, Pamela, and Louis Knowles 
+<br class="references">1978 "Fraternal Associations and Civil Religion: Scottish Rite Masonry," Review of Religious Research, 20:3-22. 
+Marty, Martin 
+<br class="references">1974 "Two Kinds of Civil Religion." Pp. 139-160 in Russell Richey & Donald Jones (eds.), American Civil Religion. New York: Harper and Row. 1976 A Nation of Behavers. Chicago: University of Chicago Press. 
+Myers, Gustavus 
+<br class="references">1960 History of Bigotry in the United States. Edited and Revised by Henry Christman. New York: Capricorn Books. 
+Rose, Arnold 
+<br class="references">1967 The Power Structure: Political Process in American Society. New York: Oxford University Press. 
+Schmidt, Alvin, and Nicholas Babchuk 
+<br class="references">1973 "The Unbrotherly Brotherhood: Discrimination in Fraternal Orders," Phylon, 34:275-82. 
+Sills, David 
+<br class="references">1957 The Volunteers: Means and Ends in a National Organization. Glencoe, Illinois: Free Press. 
+Simmel, Georg 
+<br class="references">1950 The Sociology of Georg Simmel. Translated and edited by Kurt Wolff. New York: Free Press. 
+Smith, Constance, and Anne Freedman 
+<br class="references">1972 Voluntary Associations: Perspectives on the Literature. Cambridge: Harvard University Press. 
+Whipple, Ralph 
+<br class="references">1969 "Ages and Occupations of 1968 Iowa Initiates," Grand Lodge of Iowa Bulletin 70. </p>
+
+        </div>
+</div>
+</main>
+    <footer class="navbar navbar-expand-lg navbar-custom">
+        <div class="decoration-sx">
+            <p class="p-dec">Decorazione</p>
+        </div>
+
+        <div class="decoration-dx">
+            <p class="p-dec">Decorazione</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
