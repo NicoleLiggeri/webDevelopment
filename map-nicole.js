@@ -8,6 +8,34 @@ function styleS(file) {
         };
     }
 
+$(document).ready(function () {
+    // Al click di un link nella lista
+    $('#listaLinks a').click(function (e) {
+        e.preventDefault();
+        // Recupera l'URL del file associato al link
+        var fileDaCaricare = $(this).data('file');
+        // Chiama la funzione per caricare il contenuto
+        caricaContenuto(fileDaCaricare);
+    });
+
+    // Funzione per caricare il contenuto
+    function caricaContenuto(url) {
+        $.ajax({
+            url: url,
+            type: 'GET',
+            dataType: 'html',
+            success: function (data) {
+                // Find the element with idtwo in the loaded data
+                var idTwoContent = $(data).find('#idtwo');
+                // Replace the content of the desired element with idtwo
+                $('#main-txt-id').html(idTwoContent);
+            },
+            error: function (error) {
+                console.log('Errore nel caricamento del file: ' + error.statusText);
+            }
+        });
+    }
+});
 
 document.addEventListener("DOMContentLoaded", function () {
 var map = L.map('map').setView([51.505, -0.09], 15);
