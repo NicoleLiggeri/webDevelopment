@@ -26,9 +26,11 @@ $(document).ready(function () {
             dataType: 'html',
             success: function (data) {
                 // Find the element with idtwo in the loaded data
-                var idTwoContent = $(data).find('#idtwo');
+                var idTwoContent = $(data).find('#main-txt-id');
+                var idSideContent = $(data).find('#article-txt-id');
                 // Replace the content of the desired element with idtwo
                 $('#main-txt-id').html(idTwoContent);
+                $('#article-txt-id').html(idSideContent);
             },
             error: function (error) {
                 console.log('Errore nel caricamento del file: ' + error.statusText);
