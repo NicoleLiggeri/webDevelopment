@@ -1,22 +1,3 @@
-let numeberTimes = 0 
-
-function styleS(file) {
-    const themeLink = document.getElementById('themeLink');
-    
-    if (themeLink) {
-        themeLink.setAttribute('href', file); 
-        };
-    }
-
-$(document).ready(function () {
-    // Al click di un link nella lista
-    $('#article-txt-id a').click(function (e) {
-        e.preventDefault();
-        // Recupera l'URL del file associato al link
-        var fileDaCaricare = $(this).data('file');
-        // Chiama la funzione per caricare il contenuto
-        caricaContenuto(fileDaCaricare);
-    });
 $(document).ready(function () {
     // Al click di un link nella lista
     $('#article-txt-id a').click(function (e) {
@@ -50,6 +31,18 @@ $(document).ready(function () {
         });
     }
 });
+
+
+
+let numeberTimes = 0 
+
+function styleS(file) {
+    const themeLink = document.getElementById('themeLink');
+    
+    if (themeLink) {
+        themeLink.setAttribute('href', file); 
+        };
+    }
 
 
 document.addEventListener("DOMContentLoaded", function () {
