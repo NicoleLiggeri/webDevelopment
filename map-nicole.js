@@ -218,5 +218,3 @@ function isCssLoaded(filename) {
       });
     }
   }
-  
-  
