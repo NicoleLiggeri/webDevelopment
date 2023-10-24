@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // Al click di un link nella lista
-    $('#article-txt-id a').click(function (e) {
+    $('#ciao a').click(function (e) {
         e.preventDefault();
         // Recupera l'URL del file associato al link
         var fileDaCaricare = $(this).data('file');
