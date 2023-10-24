@@ -17,6 +17,15 @@ $(document).ready(function () {
         // Chiama la funzione per caricare il contenuto
         caricaContenuto(fileDaCaricare);
     });
+$(document).ready(function () {
+    // Al click di un link nella lista
+    $('#article-txt-id a').click(function (e) {
+        e.preventDefault();
+        // Recupera l'URL del file associato al link
+        var fileDaCaricare = $(this).data('file');
+        // Chiama la funzione per caricare il contenuto
+        caricaContenuto(fileDaCaricare);
+    });
 
     // Funzione per caricare il contenuto
     function caricaContenuto(url) {
@@ -25,11 +34,14 @@ $(document).ready(function () {
             type: 'GET',
             dataType: 'html',
             success: function (data) {
-                // Find the element with idtwo in the loaded data
-                var idTwoContent = $(data).find('#main-txt-id');
-                var idSideContent = $(data).find('#article-txt-id');
-                // Replace the content of the desired element with idtwo
+                // Find the element with id "main-txt-id" in the loaded data
+                var idTwoContent = $(data).find('#main-txt-id').html();
+                // Replace the content of the desired element with id "main-txt-id"
                 $('#main-txt-id').html(idTwoContent);
+
+                // Find the element with id "article-txt-id" in the loaded data
+                var idSideContent = $(data).find('#article-txt-id').html();
+                // Replace the content of the desired element with id "article-txt-id"
                 $('#article-txt-id').html(idSideContent);
             },
             error: function (error) {
@@ -38,6 +50,7 @@ $(document).ready(function () {
         });
     }
 });
+
 
 document.addEventListener("DOMContentLoaded", function () {
 var map = L.map('map').setView([51.505, -0.09], 15);
