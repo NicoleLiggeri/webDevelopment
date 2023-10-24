@@ -19,11 +19,6 @@ $(document).ready(function () {
                 var idTwoContent = $(data).find('#main-txt-id').html();
                 // Replace the content of the desired element with id "main-txt-id"
                 $('#main-txt-id').html(idTwoContent);
-
-                // Find the element with id "article-txt-id" in the loaded data
-                var idSideContent = $(data).find('#article-txt-id').html();
-                // Replace the content of the desired element with id "article-txt-id"
-                $('#article-txt-id').html(idSideContent);
             },
             error: function (error) {
                 console.log('Errore nel caricamento del file: ' + error.statusText);
