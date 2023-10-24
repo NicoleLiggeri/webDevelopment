@@ -10,7 +10,7 @@ function styleS(file) {
 
 $(document).ready(function () {
     // Al click di un link nella lista
-    $('#listaLinks a').click(function (e) {
+    $('#article-txt-id a').click(function (e) {
         e.preventDefault();
         // Recupera l'URL del file associato al link
         var fileDaCaricare = $(this).data('file');
